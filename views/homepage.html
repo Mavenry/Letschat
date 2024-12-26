@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoChat - Home</title>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="shortcut icon" href="./images/icon.svg">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./#"><img src="./images/signup.png" alt="Home icon" style="width:70px; height:70px"></a>
+        </div>
+        <section class="search-bar">
+            <input type="text" id="search-input-country" placeholder="Country">
+            <input type="text" id="search-input-region" placeholder="Region">
+            <input type="text" id="search-input-town" placeholder="Town">
+            <button id="search-button">Search</button>
+        </section>
+        <div class="nav-links">
+            <nav>
+                <ul>
+                    <li id="chats"><a ><img src="./images/chatsIcon.png" alt="Chats" style="width:70px; height:70px"></a></li> 
+                    <!-- <li><a href="#"><img src="group-pic.png" alt="Group Pic"></a></li> -->
+                    <li id="profile-icon"><a href="#"><img src="default_p.svg" alt="Profile Icon"></a></li>
+                    
+                </ul>
+            </nav>
+    
+        </div>
+    </header>
+
+    <main>
+
+        <section class="users-grid" id="users-grid">
+             
+        </section>
+        <section class="users-grid" id="users-grid"></section>
+	<!-- Pagination controls -->
+        <div class="pagination">
+            <button id="prev-page">Previous</button>
+            <button id="next-page">Next</button>
+        </div>
+    </main>
+    
+    <script src="./scripts/home1.js"></script>
+</body>
+
+</html>
